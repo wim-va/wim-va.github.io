@@ -1,0 +1,71 @@
+/* inspired on responsive look photography site  */
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir ";
+}
+
+h1{
+    text-align: center;
+    line-height: 1.1;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    background-color: steelblue;
+    padding: 20px 0;
+    
+}
+
+.container{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.square{
+width: 30%; 
+padding-bottom: 30%;
+background-color: purple;
+margin: 1.666%;
+float: left;
+border-radius: 15%;
+transition: background .6s;
+-webkit-transition: background .6s;
+-moz-transition: background .6s;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+} 
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+button{
+    border: 0px none black;
+    font-family:  "Montserrat", "Avenir ";
+    background: none;
+    color: steelblue; 
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition:  all .5s; 
+    -webkit-transition: all .5s;
+    -moz-transition:  all .5s;
+    outline: none;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
+
+button:hover, .selected{
+    color: white;
+    background-color: steelblue; 
+}
